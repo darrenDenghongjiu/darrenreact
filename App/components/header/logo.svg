@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="50px" height="50px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.2 (7799) - http://www.bohemiancoding.com/sketch -->
+    <title>iTunesArtwork@2x</title>
+    <description>Created with Sketch.</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="iTunesArtwork@2x" sketch:type="MSArtboardGroup" stroke="#FF576F">
+            <g id="Oval-7-+-Oval-8-+-Oval-6" sketch:type="MSLayerGroup" transform="translate(512.500000, 512.000000) rotate(-90.000000) translate(-512.500000, -512.000000) translate(231.000000, 169.000000)">
+                <path d="M183.226929,686.694201 C445.192085,674.392507 686.971923,117.40028 490.425781,23.9319555 C293.87964,-69.5363688 24.986429,141.817509 1.78621992,241.286684 C-10.8102443,445.832725 11.5433172,686.694245 183.226929,686.694201 Z" id="Oval-8" stroke-width="40" sketch:type="MSShapeGroup"></path>
+                <path d="M122.384957,499.924254 C283.240754,492.374478 431.702058,150.538093 311.015831,93.1748617 C190.329603,35.8116302 25.2197371,165.523396 10.9739947,226.569461 C3.23932369,352.103132 16.9651948,499.924281 122.384957,499.924254 Z" id="Oval-7" stroke-width="30" sketch:type="MSShapeGroup"></path>
+                <path d="M86.4986863,387.239296 C176.118345,383.020303 258.8325,191.994088 191.59303,159.938165 C124.353561,127.882241 32.3637783,200.368228 24.4268647,234.482205 C20.117548,304.633374 27.764819,387.239311 86.4986863,387.239296 Z" id="Oval-6" stroke-width="20" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

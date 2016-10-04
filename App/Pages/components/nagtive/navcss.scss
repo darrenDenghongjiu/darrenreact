@@ -1,0 +1,17 @@
+
+*{ padding:0; margin:0; list-style:none; }
+body { background-image: url("123.jpg"); width:100%; overflow:hidden; }
+#app{ width:1000px; margin:auto; }
+.active { color:yellow; }
+ul { margin:auto; overflow:hidden;}
+ul li { float:left; width:200px; margin-left:20px; }
+#banner{ width:100%; background:blue; text-align:center;}
+.slick-track {
+	height:200px; background:red; 
+	.slick-slide {  font-size:200px; width:300px;  color:blue; float:left;
+					text-align:center; 
+	}
+	div{ width:200px; height:200px; background:red; 
+		span { display:block; background:red; width:200px; height:2000px;  }
+	}
+}

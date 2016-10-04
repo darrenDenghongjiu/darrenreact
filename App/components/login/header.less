@@ -1,0 +1,125 @@
+@import '../_variable.less';
+
+// size
+@nav_height: 60px;
+@logo_width: 140px;
+
+// font
+@base_font_size: 16px;
+@list_font_size: @base_font_size;
+@logo_font_size: 1.5 * @base_font_size;
+
+// color
+@bg_color: #fff;
+
+
+.nav {
+
+    & {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        box-shadow: @paper;
+        background-color: @bg_color;
+        z-index: 1000;
+    }
+
+    .container {
+        width: @main_width;
+        height: @nav_height;
+        margin: 0 auto;
+    }
+
+    .logo {
+        float: left;
+        width: @logo_width;
+        text-align: left;
+        font-size: @logo_font_size;
+
+        span {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .image {
+            width: 50px;
+            height: @nav_height;
+            background-image: url(logo.svg);
+            background-repeat: no-repeat;
+            background-position: left center;
+            -webkit-background-size: 50px 50px;
+            background-size: 50px 50px;
+        }
+    }
+
+    .left {
+        float: left;
+    }
+
+    .right {
+        float: right;
+    }
+
+    .list {
+
+        font-size: @list_font_size;
+
+        li {
+
+            height: @nav_height;
+            line-height: @nav_height;
+
+            &::after {
+                content: "";
+                display: block;
+                width: 0;
+                height: 3px;
+                margin: -3px auto 0 auto;
+                background-color: @base_color;
+            }
+
+            a {
+                display: block;
+                height: 100%;
+                padding: 0 1em;
+                transition: all 300ms;
+                color: #4A4F52;
+
+                &:hover {
+                    color: @base_color;
+                }
+            }
+
+        }
+
+        .active {
+
+            a {
+                color: @base_color;
+            }
+
+            &::after {
+                -webkit-animation: animwidth 300ms ease-in-out both;
+                -o-animation: animwidth 300ms ease-in-out both;
+                animation: animwidth 300ms ease-in-out both;
+            }
+
+        }
+
+    }
+
+    .active {
+
+    }
+
+}
+
+@-webkit-keyframes animwidth {
+    from {width: 0;}
+    to {width: 100%;}
+}
+@keyframes animwidth {
+    from {width: 0;}
+    to {width: 100%;}
+}
